@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Kenzie Restaurante</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./Imagem/logo_Kenzie.png" alt="Logo Kenzie Academy">
+        <h1>Restaurante</h1>
+        </div>
+    </header>
+    <main class="container">
+        <section class="products">
+            <ul class="products-list">
+                <li class="product">
+                    <img src="./Imagem/Burgao.png" alt="Burgao">
+                    <h3 class="Title-1">Burgão</h3>
+                    <p class="text-Caption color-grey-3
+                    ">O Hambúrguer lançamento!</p>
+                    <div class="footer-products">
+                        <span class="Title-2">R$ 28,00</span>
+                        <button  id="01">
+                            <img src="./Imagem/carrinho.png" alt="Icone do carrinho">
+                        </button>
+                    </div>
+                </li>
+                <li class="product">
+                    <img src="./Imagem/refrigerante.png" alt="Refrigerante">
+                    <h3 class="Title-1">Refrigerante</h3>
+                    <p class="text-Caption color-grey-3">Refrigerante bem gelado para acompanhar sua refeição</p>
+                    <div class="footer-products">
+                        <span class="Title-2">R$ 7,50</span>
+                        <button  id="02">
+                            <img src="./Imagem/carrinho.png" alt="Icone do carrinho">
+                        </button>
+                    </div>
+                </li>
+                <li class="product">
+                    <img src="./Imagem/Burguinho.png" alt="Burguinho">
+                    <h3 class="Title-1">Burguinho</h3>
+                    <p class="text-Caption color-grey-3">Delicioso hambúrguer acompanhado de um ovo frito de gema mole!</p>
+                    <div class="footer-products">
+                        <span class="Title-2">R$ 22,00</span>
+                        <button id="03">
+                            <img src="./Imagem/carrinho.png" alt="Icone do carrinho">
+                        </button>
+                    </div>
+                </li>
+                <li class="product">
+                    <img src="./Imagem/frango frito-1.png" alt="Icone Frango Frito">
+                    <h3 class="Title-1">Frango Frito</h3>
+                    <p class="text-Caption color-grey-3">Frango frito e crocante com molho especial</p>
+                    <div class="footer-products">
+                        <span class="Title-2">R$ 25,00</span>
+                        <button id="04">
+                            <img src="./Imagem/carrinho.png" alt="Icone do carrinho">
+                        </button>
+                    </div> 
+                </li>
+                <li class="product">
+                    <img src="./Imagem/Batata Frita-2.png" alt="Icone Batata Frita">
+                    <h3 class="Title-1">Batata Frita</h3>
+                    <p class="text-Caption color-grey-3">Batata frita acompanhada de molho especial</p>
+                    <div class="footer-products">
+                        <span class="Title-2">R$ 15,00</span>
+                        <button id="05">
+                            <img src="./Imagem/carrinho.png" alt="Icone do carrinho">
+                        </button>
+                    </div>
+                </li>
+                <li class="product">
+                    <img src="./Imagem/Sanduíche com Frango Frito-3.png" alt="Icone Frango Frito">
+                    <h3 class="Title-1">Sanduíche com Frango Frito</h3>
+                    <p class="text-Caption color-grey-3">Pão, frango frito e salada para acompanhar</p>
+                    <div class="footer-products">
+                        <span class="Title-2">R$ 28,00</span>
+                        <button id="06">
+                            <img src="./Imagem/carrinho.png" alt="Icone do carrinho">
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <aside>
+            <div class="flex header-carrinho">
+                <img src="./Imagem/carrinho.png" alt="Icone do carrinho">
+                <h4>carrinho</h4>
+            </div>
+
+            <div class="carrinho">
+                <ul class="products-selection">
+                    <li class="flex">
+                        <div class="products-image">
+                            <img src="./Imagem/unsplash_eeqbbemH9-c (1).png" alt="Icone Sanduíche com Frango Frito">
+                        </div>
+                        <div>
+                        <div class="flex">
+                            <h3 class="Title-2">Sanduíche com Frango Frito</h3>
+                            <button class="trash-btn">
+                                <img src="./Imagem/lixeira.png" alt="Icone lixeia">
+                            </button>
+                        </div>
+                        <div class="footer-cart">
+                            <p class="text-Caption">R$ 20,00</p>
+                        </div>
+                    </div>                        
+                </li>
+            </ul>
+                <div  class="totalizador">
+                    <h4 class="Title-3">Quantidade</h4>
+                    <h4 class="Title-3">4</h4>
+                </div>
+                <div class="totalizador">
+                    <h4 class="Title-3">Total</h4>
+                    <h4 class="Title-3">R$ total</h4>
+                </div>
+                <button class="btn-finalizar-pedido">Realizar pedido</button>
+            </div>
+        </aside>    
+    </main>
+    <script src="./js/database.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

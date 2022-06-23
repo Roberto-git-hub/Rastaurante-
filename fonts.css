@@ -1,0 +1,38 @@
+
+.Title-1{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+
+}
+
+.Title-2{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+.Title-3{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13px;
+}
+
+.test-Body{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text-Caption{
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+}
+
+.text-Detail{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
